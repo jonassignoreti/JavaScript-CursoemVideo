@@ -23,6 +23,10 @@ JAVASCRIPT
     CSS: /* Comment CSS */
     JAVASCRIPT: // Comment JAVASCRIPT ou /* Comment JAVASCRIPT */ 
 --------------------------------------------------------------------------------------------------------------
+=> USING NODE.js
+    type "node" in the prompt(CMD) to open the Node.js
+    type ".help" for more information
+--------------------------------------------------------------------------------------------------------------
 => CREATING A ALERT
     window.alert('message')
 --------------------------------------------------------------------------------------------------------------
@@ -38,7 +42,7 @@ JAVASCRIPT
     var s1 = 'String'
 --------------------------------------------------------------------------------------------------------------
 => TYPE OF THE VARIABLE
-    timeof n1 // test the type of the variable, like String, Numbers, Boolean ...
+    typeof n1 // test the type of the variable, like String, Numbers, Boolean ...
 --------------------------------------------------------------------------------------------------------------
 => CONVERTING STRINGS TO NUMBERS
     Number.parseInt(var) // Where var is a string, convert to a integer number
@@ -78,6 +82,12 @@ JAVASCRIPT
     % // rest of division
     ** // potentiation
 --------------------------------------------------------------------------------------------------------------
+=> PRECEDENCE ARITHMETIC
+    1st // () parentheses
+    2nd // potentiation
+    3rd // multiplies, divides and rest of division (left to right)
+    4th // sum and subtract
+--------------------------------------------------------------------------------------------------------------
 => INCREMENT
     x = x + 1       =>      x += 1      =>      x++ (post-increment) or ++x (pre-increment)
     x = x - 1       =>      x -= 1      =>      x-- (post-increment) or --x (pre-increment)
@@ -85,9 +95,10 @@ JAVASCRIPT
 => IDENTITY
     5 == 5 - True
     5 == '5' - True //Here is tested if they have the same value
-    5 === '5' - False //Here is tested if they are identical, test the value and the type
+    5 === '5' - False //Here is tested if they are IDENTICAL, test the value and the type
     5 === 5 - True
     5 !== 5 - False
+    5 !== '5' - True
 --------------------------------------------------------------------------------------------------------------
 => LOGIC OPERATORS
     ! = Negation (not)
@@ -101,10 +112,15 @@ JAVASCRIPT
     4th: &&             // Logical Operators (Conjunction)
     5th: ||             // Logical Operators (Disjunction)
 --------------------------------------------------------------------------------------------------------------
-=> TERNARY
+=> TERNARY (COMPARATION)
     test ? 'True' : 'False' // Comparation (like if)
+    example: media > 7 ? 'APROVADO' : 'REPROVADO'
 --------------------------------------------------------------------------------------------------------------
-=> 
+=> DOM (Document Object Model)
+    window is the main object
+        into the window we have other objects, like: location, document, history and others
+    .... remenber to note .functions here
+
 --------------------------------------------------------------------------------------------------------------
 => 
 --------------------------------------------------------------------------------------------------------------
