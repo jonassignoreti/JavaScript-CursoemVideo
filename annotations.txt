@@ -116,15 +116,22 @@ JAVASCRIPT
     test ? 'True' : 'False' // Comparation (like if)
     example: media > 7 ? 'APROVADO' : 'REPROVADO'
 --------------------------------------------------------------------------------------------------------------
-=> DOM (Document Object Model)
+=> DOM (Document Object Model) 
     window is the main object
         into the window we have other objects, like: location, document, history and others
-    .... remenber to note .functions here
+    .getElementsByTagName(...)[...]
+    .getElementById(...)
+    .getElementsByName(...)
+    .querySelector(...)
+    examples in ex005.html
+--------------------------------------------------------------------------------------------------------------
+=> Events DOM
 
 --------------------------------------------------------------------------------------------------------------
-=> 
---------------------------------------------------------------------------------------------------------------
-=> 
+=> Functions
+    function action(param){
+
+    }
 --------------------------------------------------------------------------------------------------------------
 => 
 --------------------------------------------------------------------------------------------------------------
