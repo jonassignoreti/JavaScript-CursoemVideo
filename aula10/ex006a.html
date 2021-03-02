@@ -17,13 +17,19 @@
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> //Here the HTML treats the interaction
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" onmouse> 
+        <!--
+            Here the HTML treats the interaction
+            cada evento chama uma função
+            https://developer.mozilla.org/en-US/docs/Web/Events para mais eventos
+        -->
         Interaja...
     </div>
     <script>
         var a = window.document.querySelector('div#area')
 
         function clicar(){
+            //Função para quando clicar
             a.innerText = 'Clicou!'
             a.style.background = 'red'
         }

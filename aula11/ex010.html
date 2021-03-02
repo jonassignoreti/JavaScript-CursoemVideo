@@ -22,9 +22,9 @@
             var res = window.document.querySelector('div#result')
             var vel = Number(txtv.value)
             if(vel > 110){
-                res.innerHTML = `Sua velocidade de ${vel}Km/h é acima da permitida, você acaba de ser multado`
+                res.innerHTML = `Sua velocidade de <strong>${vel}Km/h</strong> é acima da permitida, você acaba de ser multado`
             }else{
-                res.innerHTML = `Sua velocidade de ${vel}Km/h está abaixo da permitida, continue assim.`
+                res.innerHTML = `Sua velocidade de <strong>${vel}Km/h</strong> está abaixo da permitida, continue assim.`
             }
         }
     </script>
